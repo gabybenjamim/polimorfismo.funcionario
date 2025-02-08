@@ -20,7 +20,8 @@ public class CalculadoraBonus {
 		System.out.printf("Salário com desconto de IRRF: %.2f\n",salarioDescontoIRRF);
 		double salarioDescontoFGTS = funcionario.salarioDescontoFGTS();
 		System.out.printf("Salário com desconto de FGTS: %.2f\n",salarioDescontoFGTS);
-	
+		double salarioFinal = funcionario.salarioDescontoFGTS();
+		System.out.println("Salário final: "+salarioFinal);
 		if(funcionario instanceof Vendedor) {
 			Vendedor vendedor = (Vendedor) funcionario;
 			System.out.println("Quantidade de vendas: "+vendedor.getQuantidadeVendas());
