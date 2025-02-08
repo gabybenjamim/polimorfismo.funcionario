@@ -25,8 +25,7 @@ public class CalculadoraBonus {
 		if(funcionario instanceof Vendedor) {
 			Vendedor vendedor = (Vendedor) funcionario;
 			System.out.println("Quantidade de vendas: "+vendedor.getQuantidadeVendas());
-		}
-		else if(funcionario instanceof Desenvolvedor) {
+		} else if(funcionario instanceof Desenvolvedor) {
 			Desenvolvedor desenvolvedor = (Desenvolvedor) funcionario;
 			System.out.println("Quantidade de programas feitos no mês: "+desenvolvedor.getProgramasDesenvolvidos());
 		}
